@@ -5,7 +5,8 @@ export default function Import(){
 
   const [inputValue, setInputValue] = useState("Write a to-do item!")
 
-  function handleInputChange = (event) => {
+  // Left off implementing an input box
+  const handleInputChange = (event) => {
     setInputValue(event.target.value)
   }
 
